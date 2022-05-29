@@ -1,3 +1,5 @@
+/*------------HTML tags-----------------*/
+
 body{
     
     margin: 0;
@@ -9,6 +11,7 @@ body{
 
 /*--------------------------Class-----------------------------*/
 
+/*--------------------Customizing Fonts, little bit of positioning as well--------------------------*/
 .font01{
     font-size: 2vw;
 }
@@ -19,56 +22,6 @@ body{
     font-weight: 600;
     margin: 0;
     
-}
-
-.top{
-    height: 57vw;
-    
-    background-image: url("resources/header-bg.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    
-    
-
-}
-
-.mid1{
-    height: 45vw;
-    
-    
-    background-image: url("resources/biography-bg.png");
-    background-size:auto;
-    background-repeat: no-repeat;
-   
-    
-    
-}
-.mid2{
-    height: 70vw;
-    /*----------------------Display:flex is fun to center things------------------------*/
-    
-    
-    background-image: url("resources/latest-work-bg.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    
-}
-
-.bottom{
-    height:60vw;
-    
-    background-image: url("resources/footer-bg.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-
-}
-
-.pos1{
-    position: relative;
-    left: 8vw;
-    top: 3vh;
-    
-   
 }
 .spos{
     font-weight: 300;
@@ -83,58 +36,6 @@ body{
     
 
 }
-.div01{
-    float: left;
-    width: 40%;
-    margin-left:4%;
-    margin-top: 2%;
-    
-    padding: 2%;
-
-}
-
-.div01 img{
-    position:relative;
-    right: 2vw;
-    top: 7vh;
-
-    width: 80%;
-}
-.div02{
-    float: left;
-    width: 40%;
-    margin-left:4%;
-    
-    
-    padding: 2%;
-   
-    height: 30vw;
-}
-.div02 img{
-    width: 75%;
-    position:relative;
-    left:4vw;
-}
-.div03{
-    float: left;
-    width: 25%;
-    position: relative;
-    margin-top: 35vw;
-    position: relative;
-    left:13vw;
-    
-
-    
-    
-   
-
-}
-.div03 img{
-    width: 90%;
-    
-}
-
-
 .spos2{
     font-family: 'Tiro Devanagari Sanskrit', serif;
     font-weight: 500;
@@ -228,6 +129,64 @@ body{
 
 }
 
+/*---------------------Different Sections Customization------------------------*/
+
+.top{
+    height: 57vw;
+    
+    background-image: url("resources/header-bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.mid1{
+    height: 45vw;
+    
+    
+    background-image: url("resources/biography-bg.png");
+    background-size:auto;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+.mid2{
+    height: 70vw;
+    
+    
+    
+    background-image: url("resources/latest-work-bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+.bottom{
+    height:60vw;
+    
+    background-image: url("resources/footer-bg.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.foot{
+    
+    font-size:x-small;
+    
+}
+
+/*All about positioning*/
+
+.pos1{
+    position: relative;
+    left: 8vw;
+    top: 3vh;
+    
+   
+}
 .centralPos{
     position: relative;
     top: 12vh;
@@ -237,6 +196,64 @@ body{
     position:relative;
     top:8vh;
 }
+
+/*----------------------Customizing Divs and its images------------------------*/
+
+.div01{
+    float: left;
+    width: 40%;
+    margin-left:4%;
+    margin-top: 2%;
+    
+    padding: 2%;
+
+}
+
+.div01 img{
+    position:relative;
+    right: 2vw;
+    top: 7vh;
+
+    width: 80%;
+}
+.div02{
+    float: left;
+    width: 40%;
+    margin-left:4%;
+    
+    
+    padding: 2%;
+   
+    height: 30vw;
+}
+.div02 img{
+    width: 75%;
+    position:relative;
+    left:4vw;
+}
+.div03{
+    float: left;
+    width: 25%;
+    position: relative;
+    margin-top: 35vw;
+    position: relative;
+    left:13vw;
+    
+
+    
+    
+   
+
+}
+.div03 img{
+    width: 90%;
+    
+}
+
+
+
+/*--------------------Customizing Buttons-----------------------------*/
+
 
 .button01{
     font-family: 'Merriweather', serif;
@@ -271,7 +288,7 @@ body{
     text-decoration: none;
     color:white;
     position: relative;
-    top:4.5vh;
+    top:15.5vh;
     font-size:0.925vw;
     margin: 0;
     width:30%;
@@ -285,11 +302,7 @@ body{
 
 }
 
-.foot{
-    
-    font-size: small;
-    
-}
+/*--------------Some IDs, positioning as well--------------*/
 
 
 #dp2{
